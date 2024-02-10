@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+body {
+  overflow-x: hidden;
+}
+.sidebar h1 {
+  border-bottom: 1px solid white;
+}
+.sidebar .info .home {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar .info .social {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sidebar .info .social a {
+  margin-left: 15px;
+  font-size: 1rem;
+}
+.sidebar .info .social i {
+  font-size: 30px;
+}
+.sidebar {
+  height: 100vh;
+  width: 20%;
+  background-color: #14131a;
+  position: fixed;
+  padding: 2rem 1rem 1rem 1.6rem;
+}
+.sidebar .info {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 50px;
+  padding: 20px;
+  background-color: #1c1b23;
+  overflow: auto;
+  text-align: start;
+}
+.main {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.div1 {
+  width: 80%;
+  background-color: #14131a;
+  min-height: 100vh;
+  position: absolute;
+  right: 0;
+  padding: 30px 10px 10px 10px;
+}
+
+.header {
+  height: 12vw;
+  width: 100%;
+  background: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg");
+  backdrop-filter: blur(100px);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  backdrop-filter: blur(50px);
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+  z-index: 10;
+}
+.header img {
+  height: 140px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .header-linked {
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.header .header-linked a {
+  margin-left: 10px;
+}
+.header .header-linked i {
+  font-size: 30px;
+}
+.card {
+  width: 220px;
+  height: 254px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.card2 {
+  width: 220px;
+  height: 254px;
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  transition: all 0.2s;
+}
+
+.card2:hover {
+  transform: scale(0.96);
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+
+.projects {
+  margin: 40px 20px;
+}
+.projects .cards {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+.card-content {
+  height: 50%;
+  width: 100%;
+  background-color: red;
+  border-radius: 14px 14px 0px 0px;
+}
+.card2 .image1 {
+  background: url("./discord-dark-purple-vector-fbwpgfkg8zpjmuvh.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card2 .image2 {
+  background: url("./discord-dark-purple-vector-fbwpgfkg8zpjmuvh.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card2 .image3 {
+  background: url("./discord-dark-purple-vector-fbwpgfkg8zpjmuvh.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card2 .image4 {
+  background: url("./discord-dark-purple-vector-fbwpgfkg8zpjmuvh.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.content {
+  padding: 20px;
+}
+.card2 p {
+  font-size: 10px;
+}
+.div2 {
+  min-height: 100vh;
+  margin-top: 100px;
+  padding: 20px;
+}
+.skills div {
+  height: 250px;
+  width: 15vw;
+  background-color: #1c1b23;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+  gap: 40px;
+  line-height: 50px;
+}
+.skills div span {
+  font-size: 15px;
+  font-weight: 200;
+  background-color: #14131a;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+.skills div span:nth-child(1) {
+  border: 1px solid red;
+}
+.skills div span:nth-child(4) {
+  border: 1px solid;
+}
+.skills div span:nth-child(6) {
+  border: 1px solid pink;
+}
+/* .about-me {
+  min-height: 60vh;
+}
+.about-me .about {
+  padding: 20px;
+} */
